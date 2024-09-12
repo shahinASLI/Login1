@@ -1,0 +1,185 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<style>
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #080710;
+}
+.main{
+    display: flex;
+    width: 1000px;
+    height: 800px;
+    background-color: rgba(0,0,0,0);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.circle-box{
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 700px;
+    margin-top: 10px;
+    margin-left: -104px;
+
+}
+.circle-1{
+    background-color: rgb(11, 90, 127);
+    box-shadow: 1px 1px;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+.circle-2{
+    box-shadow: 1px 1px;
+    background-color: rgba(162, 67, 8, 0.907);
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-left: 340px;
+    margin-top: 300px;
+}
+.login-box{
+    border: 1px solid black;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.13);
+    border: 2px solid rgba(255,255,255,0.2);
+    position: absolute;
+    backdrop-filter: blur(7px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-titr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 40px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.login-main{
+    width: calc(100% - 70px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: ;
+}
+.login-username{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.username-titr{
+    color: #fff;
+}
+.username-box{
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.07);
+    width: 100%;
+    height:50px;
+    border-radius: 6px;
+}
+.login-password{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.password-titr{
+    color: #fff;
+    width: calc(100%);
+    height: auto;
+    font-weight: 400;
+}
+.password-box{
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.07);
+    width: 100%;
+    height:50px;
+    border-radius: 6px;
+}
+.login-button{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    background-color: rgba(255,255,255,0);
+    padding-bottom: 35px;
+    border: none;
+}
+.self-button{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255,255,255,0.9);
+    border: 0px;
+    font-size: 18px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+.password-box-input{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    border: 0px
+}
+.username-box-input{
+    background-color: rgba(0,0,0,0);
+    border: 0px;
+}
+.input{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    padding-left: 10px;
+}
+
+</style>
+</head>
+<body>
+    <div class="main">
+        <div class="login-box">
+            <div class="login-titr"><p>Login Here</p></div>
+            <div class="login-main">
+                <div class="login-username">
+                    <p class="username-titr">Username:</p>
+                    <div class="username-box">
+                        <form>
+                            <input class="input" type="text" id="username" placeholder="Email or Phone">
+                        </form>
+                    </div>
+                </div>
+                <div class="login-password">
+                    <p class="password-titr">Password:</p>
+                    <div class="password-box">
+                        <form>
+                            <input class="input" type="text" id="password" placeholder="password">
+                        </form>
+                    </div>
+                </div>
+                <div class="login-button">
+                    <button class="self-button"><p>Log In</p></button>
+                </div>
+            </div>                
+        </div>
+        <div class="circle-box">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
